@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+         Used in Action Bar, and in AndroidManifest to tell the device the name of this app.
+         It's to keep this short, so your launcher icon isn't displayed with "The greatest Wea"
+         or something similar.
+    -->
+    <string name="app_name">Sunshine</string>
+
+    <!--
+         By convention, "action" denotes that this String will be used as the label for an Action,
+         typically from the action bar.  The ActionBar is limited real estate, so shorter is better.
+    -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu label to fetch updated weather info from the server -->
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="action_map">Map Location</string>
+    <string name="action_share">Share</string>
+    
+
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">SettingActivity</string>
+
+
+    <string name="pref_location_key">location</string>
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_default">33063</string>
+
+    <string name="pref_unit_key">unit</string>
+    <string name="pref_unit_label">Unit</string>
+    <string name="pref_unit_metric">metric</string>
+    <string name="pref_unit_imperial">imperial</string>
+    <string name="pref_unit_metric_label">Metric</string>
+    <string name="pref_unit_imperial_label">Imperial</string>
+
+
+
+
+</resources>
